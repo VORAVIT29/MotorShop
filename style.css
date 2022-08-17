@@ -1,0 +1,111 @@
+      body {
+          margin:0;
+          background-color:#393939;
+          font-family: Arial, Helvetica, sans-serif;/*ตั้งค่า front*/
+          /*background-color: rgba(0,0,0,0.3);*/
+      }
+
+      h2 {
+        color: white;
+      }
+
+      p {
+        color: white;
+      }
+
+      .header {
+          padding: 120px;
+          text-align: right;
+          background-image: url("img/bigbrick.jpg");
+          background-size :100%;
+          background-repeat: no-repeat;
+          margin:0;
+      }
+
+      div.gallery {
+          margin: 30px;
+          border: 3px solid #ccc;
+          float: left;
+          position:inherit;
+          top:50%;
+          right:10%;
+          width: 400px;
+          color:white;
+      }
+
+          div.gallery:hover {
+              border: 1px solid #777;
+              box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.73), 0 6px 20px 0 rgba(255, 255, 255, 0.73);
+          }
+
+          div.gallery img {
+              width: 100%;
+              height: auto;
+          }
+
+      div.desc {
+          padding: 15px;
+          text-align: center;
+      }
+      /** {
+        box-sizing:border-box;
+      }*/
+
+      /*.colum {
+        float: left;
+        padding: 10px;
+      }
+
+      .colum.side {
+        width: 45%;
+      }
+
+      .colum.mid {
+        width: 50%;
+        background-color:rgba(0,0,0,0.3);
+        position: absolute;
+      }*/
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      ul {
+          list-style-type:none;
+          height:75px;
+          margin:0;
+          padding:0;
+          overflow:hidden;
+          background-color:black;
+          background-color: rgba(0,0,0,0.5);
+          position: sticky;
+          top:0;
+      }
+
+      li {
+          float:left;
+          color:white;
+      }
+
+      li a {
+        display:block;
+        color:white;
+        text-align:center;
+        padding:25px 20px;
+        text-decoration:none;
+        /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+      }
+
+      li a:hover {
+          height:75px;
+          background-color: #ff6666;
+      }
+
+        .footer {
+          padding: 20px;
+          text-align: center;
+          background: #262626;
+          margin-top: 20px;
+        }
